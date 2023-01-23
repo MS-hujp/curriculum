@@ -1,21 +1,23 @@
 <?php
 
-function getfruitsprice($name, $price){
+$fruitslist = ["りんご"=>300,"みかん"=>30,"もも"=>1500];
+$numbers = [1,5,2];
 
-   $fruitslist = ["りんご"=>1,"みかん"=>5,"もも"=>2];
+function getPrice($price, $num){
 
-    $sum = $price * $fruitslist[$name];
-    print $name."は".$sum."円です。";
+    $sum = $price * $num;
+    return $sum;
     echo '</br>';
-
 
 }
 
-//Apple
-getfruitsprice("りんご", 300);
-//Orange
-getfruitsprice("みかん", 30);
-//Peach
-getfruitsprice("もも", 1500);
+$i = 0;
+foreach($fruitslist as $key => $value){
+    echo $key."は".getPrice($value, $numbers[$i])."円";
+    $i++;
+    echo '</br>';
+}
+
+
 
 ?>
