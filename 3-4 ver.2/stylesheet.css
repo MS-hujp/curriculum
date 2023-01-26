@@ -1,0 +1,46 @@
+.header{
+   text-align: center;
+   font-size: 10px;
+   line-height: 10px;
+   font-family: 游明朝;
+   color:white;
+   border-bottom: 3px solid white;
+   padding: 0px;
+}
+.form{
+   text-align: center;
+   font-size: 7px;
+   line-height: 7px;
+}
+
+.greeting{
+   text-align: center;
+   font-size: 12px;
+   font-family: 游明朝;
+   color: white;
+}
+
+.sentence{
+   text-align: center;
+   font-size: 15px;
+   font-family: 游明朝;
+   color: white;
+}
+.answers{
+   text-align: center;
+   font-size: 15px;
+   font-family: 游明朝;
+   color: white;    
+}
+.answer2{
+   text-align: center;
+   font-size: 15px;
+   font-family: 游明朝;
+   color: white;  
+}
+.headerofanswer{
+   text-align: center;
+   font-size: 15px;
+   font-family: 游明朝;
+   color: white;  
+}
