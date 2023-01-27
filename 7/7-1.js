@@ -7,7 +7,6 @@ function isEven() {
     if(numbers[i] % 2 == 0){
         console.log(numbers[i] + 'は偶数です');
     }
-    i++;
 }
 }
 isEven();
