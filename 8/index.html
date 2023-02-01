@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        th, td {
+            padding : 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <label for="dropdown">選択してください</label> -->
+    <select class="form-control" id="dropdown" onchange="changeLang()">
+        <option id="basicmenu">選択してください</option>
+        <option id="selected_jpn">日本語</option>
+        <option id="selected_en">English</option>
+        <option id="selected_all">全て表示</option>
+       
+    </select>
+    <table id="table">
+        <tr id="jpn">            
+            <th>日本語</th>
+            <td>こんにちは</td>
+            <td>ありがとう</td>
+            <td>さようなら</td>
+        </tr>        
+        <tr id="eng">
+            <th>English</th>
+            <td>Hello</td>
+            <td>Thank you</td>
+            <td>Good Bye</td>
+        </tr>
+    </table>
+    </body>
+    <script>
+        let select = document.querySelector('#dropdown');
+        let table = document.querySelector('#table');
+
+       function changeLang(){
+           if(document.querySelector('#dropdown')){
+                idd = document.querySelector('#dropdown').value;
+
+                console.log(idd);
+                
+                if(idd == '日本語'){
+                document.getElementById('jpn').style.display = "";
+                document.getElementById('eng').style.display = "none";
+             
+                }else if(idd == 'English'){
+                document.getElementById('jpn').style.display = "none";
+                document.getElementById('eng').style.display = "";
+              
+                }else{
+                document.getElementById('jpn').style.display = "";
+                document.getElementById('eng').style.display = "";
+                }
+           }
+           window.onload = changeLang;
+        }
+
+        //①onchangeで使用されている関数の中身を実装してください。
+    </script>
+</html>
