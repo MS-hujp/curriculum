@@ -1,0 +1,8 @@
+https://re-creative.biz/curriculum/PHP%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%82%B3%E3%83%BC%E3%82%B9/4/8
+//–â1
+ SELECT name, items.item_name, items.price FROM users LEFT JOIN items ON users.item_id = items.item_id;
+
+ //–â2
+SELECT name, items.item_name, items.price FROM users LEFT JOIN items ON users.item_id = items.item_id AND price >= 150;
+
+//–â3
