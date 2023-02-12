@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+table.booklist{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+th{
+ background-color: #dcdcdc; 
+}
+td{
+    background-color: white;
+}
+.btn1{
+ padding: 10px 15px;
+ background: #1e90ff;
+ color: #ffffff;
+ font-size: 15px;
+ border: 1px solid white;
+ border-radius: 8px;
+ margin-bottom: 10px;
+ margin-right: 10px;
+ text-decoration: none;
+}
+.btn1:hover {
+ opacity: 0.7;
+}
+.btn2{
+    padding: 10px 15px;
+    background: gray;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.btn2:hover {
+ opacity: 0.7;
+}
+
+.btn3 {
+ padding: 10px 15px;
+ background: #dc143c;
+ color: #ffffff;
+ border: 1px solid white;
+ border-radius: 8px;
+ text-decoration: none;
+}
+.btn3:hover {
+    opacity: 0.7;
+}
+/* ここからログイン画面 */
+.login{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+.header{
+    display: flex;
+}
+.btn4 {
+ padding: 5px 5px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ size: 30px;
+ background: #20b2aa;
+ color: #ffffff;
+ border: 1px solid white;
+ border-radius: 8px;
+ margin-left: 30px;
+ text-decoration: none;
+}
+.btn4:hover {
+ opacity: 0.7;
+}
+.form{
+    margin-top:10px;
+}
+.submit{
+    padding: 5px 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    size: 30px;
+    background: #1e90ff;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 0px;
+}
+/* ここから本の登録画面 */
+.btitle{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+.stockre{
+    font-size: 15px;
+}
+.bregister{
+    padding: 5px 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    size: 30px;
+    background: #1e90ff;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-left: 0px;
+}
