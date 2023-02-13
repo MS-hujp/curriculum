@@ -1,0 +1,39 @@
+.box12{
+    flex-direction: column;
+}
+.gb{
+    display: flex;
+}
+.gazou{
+    width: 200px;                                
+    height: 120px;                             
+    background-color: #add8e6;
+}
+.box1{
+    width:800px;
+    height:60px;
+    background-color: #87ceeb;
+    text-align: right;
+}
+.box2{
+    width:800px;
+    height:60px;
+    background-color: #00ffff;
+    text-align: right;
+}
+.sita{
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
+}
+table.blog{
+    margin-left:100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+th{
+ background-color: #87ceeb; 
+}
+td{
+    background-color: #e0ffff;
+}
